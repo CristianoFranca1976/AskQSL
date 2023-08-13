@@ -1,0 +1,164 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: dimgray;
+   
+}
+
+
+#container {
+    
+    width: 430px;
+    height: 932px;
+    background: var(--blueberry, #07061D);
+     background: linear-gradient(to right, #07061D 0%, #07061D 6%,
+     #28063d 6%, #28063d 24%, #07061D 24%, #07061D  30%, 
+     #28063d 30%, #28063d 48%, #07061D 48%, #07061D 54%, 
+     #28063d 54%, #28063d 72%, #07061D 72%, #07061D 78%,
+     #28063d 78%, #28063d 95%, #07061D 95%, #07061D 100%
+     );
+    margin: auto;
+}
+
+img {
+    
+    margin-left: 24px;
+    margin-top: 67px;
+    
+}
+
+button {
+    width: 32px;
+    height: 32px;
+    margin-top: 63px;
+    margin-left: 231px;
+    background-image: url(assets/Icon.svg);
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.box1, .box2 {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 24px;
+    width: 382px;
+    height: 216px;
+    margin-top: 34px;
+    margin-left: 24px;
+    overflow: hidden;
+
+}
+
+.box1 p, .box2 p, .box3 p {
+    
+    color: var(--foam, #D7DAE2);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; 
+    width: auto;
+    height: 28px;
+    margin: 0;
+}
+
+.box11 {
+    
+    width: auto;
+    height: 164px;
+    margin: 0;
+    border-radius: 5px;
+    border: 1px solid var(--20-guava, rgba(220, 255, 214, 0.20));
+    background: var(--8-lemon, rgba(194, 255, 184, 0.08));
+}
+
+input {
+   
+    width: 334px;
+    height: 140px;
+    font-family: Ubuntu Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-left: 16px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    
+}
+
+.box22 {
+    width: auto;
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid var(--20-guava, rgba(220, 255, 214, 0.20));
+    background: var(--8-lemon, rgba(194, 255, 184, 0.08));
+
+}
+
+.box22 input {
+    width: 338px;
+    height: 48px;
+    border-radius: 5px;
+    background: var(--8-lemon, rgba(194, 255, 184, 0.08));
+    background-color: transparent;
+}
+
+.box222 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+    height: 53px;
+    border-radius: 10px;
+    border: 1px solid var(--pistachio, #D3FFCC);
+    
+}
+
+.box222 img {
+    width: 24px;
+    height: 24px;
+    margin: 0; 
+}
+
+
+.box3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 24px;
+    width: 382px;
+    height: 275px;
+    margin-top: 34px;
+    margin-left: 24px;
+    overflow: hidden;
+}
+
+.box33 {
+    width: 382px;
+    height: 223px;
+
+}
+
+.box33 input {
+    width: 334px;
+    height: 196px;
+    border-radius: 5px;
+    border: 1px solid var(--20-guava, rgba(220, 255, 214, 0.20));
+}
+
+input::placeholder {
+    font-family: Ubuntu Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+     
+}
